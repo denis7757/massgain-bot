@@ -2,7 +2,7 @@ import os
 import telebot
 from openai import OpenAI
 
-# --- Берем ключи из переменных окружения Railway ---
+# --- Берем ключи из переменных окружения ---
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
